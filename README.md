@@ -40,10 +40,13 @@ In order to run this project you need:
   - Terminal to run the _irb_ console
 ### Setup
 Clone this repository to your desired folder:
+
 Example commands:
+
 sh
-  cd school-library
-  bundle install
+  - cd school-library
+
+  - bundle install
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Emmanuel Kipngeno*
