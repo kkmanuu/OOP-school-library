@@ -44,10 +44,6 @@ Example commands:
 sh
   cd school-library
   bundle install
-### Prerequisites
- - Implement classes and objects in Ruby.
- - Implement encapsulation and inheritance with Ruby.
- - Run a program using the command line.
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Emmanuel Kipngeno*
