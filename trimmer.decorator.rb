@@ -1,6 +1,6 @@
-require_relative 'DecoratorBase'
+require_relative 'Decorator'
 
-class TrimmerDecorator < DecoratorBase
+class TrimmerDecorator < Decorator
   def correct_name
     super[0..9]
   end
