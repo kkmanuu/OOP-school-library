@@ -25,9 +25,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
- - Implement classes and objects in Ruby.
- - Implement encapsulation and inheritance with Ruby.
- - Run a program using the command line.
+ - Implement composition (as an example of the design pattern).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,9 +55,7 @@ sh
 
 ## :telescope: Future Features <a name="future-features"></a>
 
- - Implement classes and objects in Ruby.
- - Implement encapsulation and inheritance with Ruby.
- - Run a program using the command line.
+ - Implement composition (as an example of the design pattern).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
