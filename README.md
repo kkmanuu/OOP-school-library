@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 # :green_book: Table of Contents
-- [:List: OOP SCHOOL LIBRARY](#-Awesome-a-nameabout-projecta)
   - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
     - [Tech Stack ](#tech-stack-a-nametech-stacka)
     - [Key Features ](#key-features-a-namekey-featuresa)
@@ -17,7 +16,7 @@
   - [:memo: License ](#-license-a-namelicensea)
 
    # :book: OOP SCHOOL LIBRARY<a name="about-project"></a>
-  -
+  - Developed using the Ruby programming language, this application serves as an efficient tool for streamlining library management procedures within educational institutions.
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -49,7 +48,7 @@ sh
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Emmanuel Kipngeno*
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
-- Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
+- Twitter: [@twitterhandle](https://twitter.com/Kkmanuu1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
 
 
