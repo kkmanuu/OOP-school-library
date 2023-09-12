@@ -49,7 +49,7 @@ sh
 :bust_in_silhouette: *Emmanuel Kipngeno*
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
 - Twitter: [@twitterhandle](https://twitter.com/Kkmanuu1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno/)
 
 
 ## :telescope: Future Features <a name="future-features"></a>
