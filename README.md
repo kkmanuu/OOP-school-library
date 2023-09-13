@@ -1,23 +1,22 @@
 <a name="readme-top"></a>
-# :green_book: Table of Contents
-- [:List: OOP SCHOOL LIBRARY](#-Awesome-a-nameabout-projecta)
-  - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
-    - [Tech Stack ](#tech-stack-a-nametech-stacka)
-    - [Key Features ](#key-features-a-namekey-featuresa)
-  - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-  - [:busts_in_silhouette: Authors ](#-authors-a-nameauthorsa)
-  - [:telescope: Future Features ](#-future-features-a-namefuture-featuresa)
-  - [:star:️ Show your support ](#️-show-your-support-a-namesupporta)
-  - [:handshake: Contributing ](#-contributing-a-namecontributinga)
-  - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
-  - [:memo: License ](#-license-a-namelicensea)
+
+# 📗 Table of Contents
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
    # :book: OOP SCHOOL LIBRARY<a name="about-project"></a>
-  -
+  - Developed using the Ruby programming language, this application serves as an efficient tool for streamlining library management procedures within educational institutions.
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -25,9 +24,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
- - Implement classes and objects in Ruby.
- - Implement encapsulation and inheritance with Ruby.
- - Run a program using the command line.
+ - Implement composition (as an example of the design pattern).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,15 +48,13 @@ sh
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Emmanuel Kipngeno*
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
-- Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
+- Twitter: [@twitterhandle](https://twitter.com/Kkmanuu1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno/)
 
 
 ## :telescope: Future Features <a name="future-features"></a>
 
- - Implement classes and objects in Ruby.
- - Implement encapsulation and inheritance with Ruby.
- - Run a program using the command line.
+ - Implement composition (as an example of the design pattern).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
