@@ -25,6 +25,8 @@
 
  ### Key Features <a name="key-features"></a>
  - Set up associations between classes and objects.
+ - Build interactive console apps.
+ - add basic UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,6 +57,8 @@ sh
 ## :telescope: Future Features <a name="future-features"></a>
 
  - Set up associations between classes and objects.
+ - Build interactive console apps.
+ - add basic UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
