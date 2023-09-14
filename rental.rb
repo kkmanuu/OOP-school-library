@@ -4,12 +4,9 @@ class Rental
   def initialize(date, book, person)
     @date = date
     @book = book
+    @book.rentals << self if @book.is_a?(Book)
+
     @person = person
-
-    # Establish the "belongs-to" association by adding the rental to the book
-    book.rentals << self
-
-    # Establish the "belongs-to" association by adding the rental to the person
-    person.rentals << self
+    @person.rentals << self if @person.is_a?(Person)
   end
 end
