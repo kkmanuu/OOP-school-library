@@ -24,7 +24,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
- - Implement composition (as an example of the design pattern).
+ - Set up associations between classes and objects.
+ - Build interactive console apps.
+ - add basic UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +56,9 @@ sh
 
 ## :telescope: Future Features <a name="future-features"></a>
 
- - Implement composition (as an example of the design pattern).
+ - Set up associations between classes and objects.
+ - Build interactive console apps.
+ - add basic UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
