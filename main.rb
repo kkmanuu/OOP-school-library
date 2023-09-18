@@ -46,7 +46,6 @@ def main
     display_options
     option = gets.chomp
     if option == '7'
-      app.exit_app
     else
       execute_option(option, app)
     end
