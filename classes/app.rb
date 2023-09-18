@@ -26,12 +26,12 @@ class App
   end
 
   # Create a student
-  # def create_student(name, age)
-  #   print 'Has parent permission? [Y/N]: '
-  #   permission = gets.downcase == 'y'
-  #   @people << Student.new(age, name, permission)
-  #   puts 'Person created successfully'
-  # end
+  def create_student(name, age)
+    print 'Has parent permission? [Y/N]: '
+    permission = gets.downcase == 'y'
+    @people << Student.new(age, name, permission)
+    puts 'Person created successfully'
+  end
 
   # Create a teacher
   def create_teacher(name, age)
