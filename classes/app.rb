@@ -25,13 +25,6 @@ class App
     @people.each { |person| puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}" }
   end
 
-  # Create a student
-  # def create_student(name, age)
-  #   print 'Has parent permission? [Y/N]: '
-  #   permission = gets.downcase == 'y'
-  #   @people << Student.new(age, name, permission)
-  #   puts 'Person created successfully'
-  # end
 
   # Create a teacher
   def create_teacher(name, age)
