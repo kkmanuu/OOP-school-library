@@ -39,18 +39,18 @@ def execute_option(option, app)
   end
 end
 
-# def main
-#   app = App.new
-#   intro
-#   loop do
-#     display_options
-#     option = gets.chomp
-#     if option == '7'
-#       app.exit_app
-#     else
-#       execute_option(option, app)
-#     end
-#   end
-# end
+def main
+  app = App.new
+  intro
+  loop do
+    display_options
+    option = gets.chomp
+    if option == '7'
+      app.exit_app
+    else
+      execute_option(option, app)
+    end
+  end
+end
 
 main
