@@ -6,6 +6,7 @@ def intro
   puts '=============================='
 end
 
+# Choose from option 1 to 7
 def display_options
   puts 'Please choose an option by entering a number:'
   puts '1 - List all books'
@@ -17,17 +18,22 @@ def display_options
   puts '7 - Exit'
 end
 
+# Execute method based on the option chosen
 def execute_option(option, app)
   case option
-  when '1' then app.list_books
-  when '2' then app.list_people
+  when '1'
+    app.list_books
+  when '2'
+    app.list_people
   when '3'
     print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
     app.create_person
-  when '4' then app.create_book
-  when '5' then app.create_rental
-  when '6' then app.list_all_rentals
-  when '7' then app.exit_app
+  when '4'
+    app.create_book
+  when '5'
+    app.create_rental
+  when '6'
+    app.list_all_rentals
   else
     puts 'You entered a wrong input, please try again'
   end
@@ -39,7 +45,11 @@ end
 #   loop do
 #     display_options
 #     option = gets.chomp
-#     execute_option(option, app)
+#     if option == '7'
+#       app.exit_app
+#     else
+#       execute_option(option, app)
+#     end
 #   end
 # end
 
