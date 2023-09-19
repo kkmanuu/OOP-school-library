@@ -89,7 +89,9 @@ class App
       return
     end
 
+    select_person
     person_id = gets.chomp.to_i
+    select_book
     book_id = gets.chomp.to_i
 
     print 'Date: '
