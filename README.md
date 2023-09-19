@@ -52,11 +52,15 @@ sh
 - Twitter: [@twitterhandle](https://twitter.com/Kkmanuu1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno/)
 
+:bust_in_silhouette: *Cephas TOKOLI*
+- GitHub: [@Ctokoli](https://github.com/ctokoli/)
+- Twitter: [@Ctokoli](https://twitter.com/ctokoli)
+- LinkedIn: [Cephas Tokoli](https://www.linkedin.com/in/ctokoli)
 
-## :telescope: Future Features <a name="future-features"></a>
-
- - Build interactive console apps.
- - add basic UI
+:bust_in_silhouette: *Marie Grace BAHATI*
+- GitHub: [@mariegrace31](https://github.com/mariegrace31)
+- Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
+- LinkedIn: [Marie Grace Bahati](www.linkedin.com/in/marie-grâce-bahati)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
