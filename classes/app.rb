@@ -71,14 +71,14 @@ class App
   # Handle selecting a book
   def select_book
     puts 'Select a book from the following list by number (not by id)'
-    @books.each_with_index { |book, index| puts "#{index}) Title: \"#{book.title}\", Author: \"#{book.author}\"" }
+    @books.each_with_index { |book, index| puts "#{index + 1}) Title: \"#{book.title}\", Author: \"#{book.author}\"" }
   end
 
   # Handle selecting a person
   def select_person
     puts 'Select a person from the following list by number (not by id)'
     @people.each_with_index do |person, index|
-      puts "#{index}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+      puts "#{index + 1}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
   end
 
