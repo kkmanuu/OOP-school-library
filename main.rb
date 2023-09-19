@@ -45,7 +45,11 @@ def main
   loop do
     display_options
     option = gets.chomp
-    execute_option(option, app) unless option == '7'
+    if option == '7'
+      app.exit_app
+    else
+      execute_option(option, app)
+    end
   end
 end
 
