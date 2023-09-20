@@ -24,8 +24,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Key Features <a name="key-features"></a>
- - Build interactive console apps.
- - add basic UI
+ - Tests
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
