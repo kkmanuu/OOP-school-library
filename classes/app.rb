@@ -1,18 +1,17 @@
-require_relative 'student'
-require_relative 'teacher'
-require_relative 'book'
-require_relative 'preserve_data'
+require_relative './student'
+require_relative './teacher'
+require_relative './book'
+require_relative './preserve_data'
 
 class App
   def initialize
-    @people = []
+    @people = read_file('./data/people.json')
     @books = read_file('./data/books.json')
-    @rentals = []
+    @rentals = read_file('./data/rentals.json')
   end
 
   # option 1 - List all books
   def list_books
-    @books = read_file('.data/books.json')
     puts 'No book yet!' if @books.empty?
     @books.each { |book| puts "Title: \"#{book['title']}\", Author: \"#{book['author']}\" Rentals: #{book['rentals']}" }
   end
@@ -30,16 +29,11 @@ class App
     print 'Has parent permission? [Y/N]: '
     permission = gets.downcase == 'y'
     @people << Student.new(age, name, permission)
+    write_file(@people, './data/people.json')
     puts 'Person created successfully'
   end
 
-  # Create a teacher
-  def create_teacher(name, age)
-    print 'Specialization: '
-    specialization = gets.chomp.capitalize
-    @people << Teacher.new(specialization, age, name)
-    puts 'Person created successfully'
-  end
+#write your code below
 
   # option 3 - Create a person
   def create_person
@@ -65,6 +59,7 @@ class App
     print 'Author: '
     author = gets.chomp.capitalize
     @books << Book.new(title, author)
+    write_file(@books, './data/books.json')
     puts 'Book created successfully'
   end
 
@@ -77,6 +72,7 @@ class App
 
   # Handle selecting a person
   def select_person
+    @people = read_file('./data/people.json')
     puts 'Select a person from the following list by number (not by id)'
     @people.each_with_index do |person, index|
       puts "#{index}) Name: #{person['name']}, ID: #{person['id']}, Age: #{person['age']}"
@@ -99,11 +95,13 @@ class App
     print 'Date: '
     date = gets.chomp
     @rentals << Rental.new(date, @books[book_id], @people[person_id])
+    write_file(@rentals, './data/rentals.json')
     puts 'Rental created successfully'
   end
 
   # option 6 - List all rentals for a given person id
   def list_all_rentals
+    @rentals = read_file('./data/rentals.json')
     puts '=================== PEOPLE ==================='
     list_people
     puts '=============================================='
