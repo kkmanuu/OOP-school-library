@@ -12,12 +12,14 @@ class App
 
   # option 1 - List all books
   def list_books
+    @books = read_file('./data/books.json')
     puts 'No book yet!' if @books.empty?
     @books.each { |book| puts "Title: \"#{book['title']}\", Author: \"#{book['author']}\" Rentals: #{book['rentals']}" }
   end
 
   # option 2 - List all people
   def list_people
+    @people = read_file('./data/people.json')
     puts 'We do not have people yet' if @people.empty?
     @people.each do |person|
       puts "Name: #{person['name']}, ID: #{person['id']}, Age: #{person['age']}, Rentals: #{person['rentals']}"
