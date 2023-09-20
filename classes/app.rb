@@ -33,7 +33,14 @@ class App
     puts 'Person created successfully'
   end
 
-#write your code below
+  # Create a teacher
+  def create_teacher(name, age)
+    print 'Specialization: '
+    specialization = gets.chomp.capitalize
+    @people << Teacher.new(specialization, age, name)
+    write_file(@people, './data/people.json')
+    puts 'Person created successfully'
+  end
 
   # option 3 - Create a person
   def create_person
