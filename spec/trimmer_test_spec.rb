@@ -1,5 +1,5 @@
 require_relative '../classes/person'
-require_relative '../classes/trimmer_decorator'
+require_relative '../classes/trimmer_decorator.rb'
 require_relative '../classes/capitalize_decorator'
 
 describe CapitalizeDecorator do
